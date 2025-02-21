@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.outerBox {
+    background-color: beige;
+    padding: 25px;
+    margin: 50px;
+    margin-top: 30px;
+    border: black double 10px;
+}
+
+.innerBox {
+    background-color: lightseagreen;
+    padding: 25px;
+    margin: 25px;
+    border: red double 10px;
+}
