@@ -1,19 +1,30 @@
+:root {
+    --yinmn-blue: #3d5a80ff;
+    --powder-blue: #98c1d9ff;
+    --light-cyan: #e0fbfcff;
+    --melon: #e7b4a5ff;
+    --burnt-sienna: #ee6c4dff;
+    --bole: #8c4f47ff;
+    --gunmetal: #293241ff;
+}
+
 body {
-    background-color: lightblue;
+    background-color: var(--powder-blue);
     text-align: center;
 }
 
 .outerBox {
-    background-color: beige;
+    background-color: var(--melon);
     padding: 25px;
     margin: 50px;
     margin-top: 30px;
-    border: black double 10px;
+    border: var(--gunmetal) double 10px;
 }
 
 .innerBox {
-    background-color: lightseagreen;
+    background-color: var(--burnt-sienna);
     padding: 25px;
     margin: 25px;
-    border: red double 10px;
+    border: var(--gunmetal) double 10px;
+    color: black;
 }
