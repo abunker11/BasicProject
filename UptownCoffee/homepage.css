@@ -14,7 +14,7 @@ body {
 }
 
 .outerBox {
-    background-color: var(--melon);
+    background-color: var(--burnt-sienna);
     padding: 25px;
     margin: 50px;
     margin-top: 30px;
@@ -22,9 +22,18 @@ body {
 }
 
 .innerBox {
-    background-color: var(--burnt-sienna);
+    background-color: var(--melon);
     padding: 25px;
     margin: 25px;
-    border: var(--gunmetal) double 10px;
+    border: var(--gunmetal) solid 10px;
     color: black;
+}
+
+#intro {
+    margin: 50px;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
 }
