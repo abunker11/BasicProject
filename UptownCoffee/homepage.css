@@ -11,6 +11,7 @@
 body {
     background-color: var(--powder-blue);
     text-align: center;
+    margin: 0px;
 }
 
 .outerBox {
@@ -33,7 +34,7 @@ body {
     margin: 50px;
 }
 
-ul {
+#hours ul {
     display: table;
     margin: 0 auto;
 }
