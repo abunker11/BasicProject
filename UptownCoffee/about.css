@@ -7,3 +7,18 @@
     --bole: #8c4f47ff;
     --gunmetal: #293241ff;
 }
+
+#baristaSection {
+    background-color: var(--powder-blue);
+    display: flex;
+    justify-content: space-around;
+    border: var(--bole) 10px ridge;
+}
+
+.barista {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: var(--light-cyan);
+    padding: 20px;
+    border: var(--gunmetal) 10px ridge;
+}
