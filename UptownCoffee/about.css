@@ -9,9 +9,12 @@
 }
 
 #baristaSection {
+    justify-content: space-around;
+}
+
+.flexSection {
     background-color: var(--powder-blue);
     display: flex;
-    justify-content: space-around;
     border: var(--bole) 10px ridge;
 }
 
@@ -21,4 +24,11 @@
     background-color: var(--light-cyan);
     padding: 20px;
     border: var(--gunmetal) 10px ridge;
+}
+
+#mainOwnerBlock {
+    background-color: var(--burnt-sienna);
+    color: var(--gunmetal);
+    flex-grow: 1;
+    margin: 20px;
 }
