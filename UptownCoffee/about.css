@@ -32,3 +32,27 @@
     flex-grow: 1;
     margin: 20px;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.container > div {
+    background-color: cadetblue;
+    padding: 20px;
+    border: 2px black solid;
+    color: white;
+}
+
+#customerHeader {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#customerImage {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
