@@ -16,7 +16,7 @@
         <h1>Contact Us</h1>
         <div class="innerBox">
             <p>Input your information below:</p>
-            <form action="" method="post">
+            <form action="" method="get">
                 <label for="firstName">First Name:</label>
                 <input type="text" id="firstName" name="firstName">
                 <br> <br>
@@ -26,6 +26,22 @@
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password">
                 <br> <br>
+                <label for="contact">Preferred Contact Method:</label>
+                <select id="contact" name="contact">
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                    <option value="text">Text</option>
+                </select>
+                <br> <br>
+                <input type="radio" id="email" name="contactRadio" value="emailContact">
+                <label for="email">Email</label>
+                <input type="radio" id="phone" name="contactRadio" value="phoneContact">
+                <label for="phone">Phone</label>
+                <input type="radio" id="text" name="contactRadio" value="textContact">
+                <label for="text">Text</label>
+                <br> <br>
+                <textarea name="aboutInfo" id="aboutInfo" placeholder="Tell Us About Yourself!"></textarea>
+                <br><br>
                 <input type="submit">
             </form>
         </div>
