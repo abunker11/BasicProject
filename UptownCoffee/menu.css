@@ -1,0 +1,28 @@
+:root {
+    --yinmn-blue: #3d5a80ff;
+    --powder-blue: #98c1d9ff;
+    --light-cyan: #e0fbfcff;
+    --melon: #e7b4a5ff;
+    --burnt-sienna: #ee6c4dff;
+    --bole: #8c4f47ff;
+    --gunmetal: #293241ff;
+}
+
+table {
+    font-size: 24px;
+    border-collapse: collapse;
+    margin: auto;
+}
+thead {
+    background-color: var(--yinmn-blue);
+    color: var(--burnt-sienna);
+}
+
+tbody {
+    background-color: var(--light-cyan);
+}
+
+td, th {
+    border: 2px var(--gunmetal) solid;
+    padding: 20px;
+}
