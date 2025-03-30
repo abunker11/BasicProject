@@ -22,31 +22,37 @@
                         <th>Name</th>
                         <th>Price</th>
                         <th>Ingredients</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Coffee</td>
-                        <td>$2.45</td>
+                        <td id="coffeePrice">$2.45</td>
                         <td>Coffee Beans</td>
+                        <td><button onclick="changePrice('coffeePrice')">Change Price</button></td>
                     </tr>
                     <tr>
                         <td>Espresso</td>
-                        <td>$1.45</td>
+                        <td id="espressoPrice">$1.45</td>
                         <td>Coffee Beans and Hot Water</td>
+                        <td><button onclick="changePrice('espressoPrice')">Change Price</button></td>
                     </tr>
                     <tr>
                         <td>Tea</td>
-                        <td>$4.45</td>
+                        <td id="teaPrice">$4.45</td>
                         <td>Tea Leaves</td>
+                        <td><button onclick="changePrice('teaPrice')">Change Price</button></td>
                     </tr>
                     <tr>
                         <td>Pastry</td>
-                        <td>$3.00</td>
+                        <td id="pastryPrice">$3.00</td>
                         <td>Flour and Sugar</td>
+                        <td><button onclick="changePrice('pastryPrice')">Change Price</button></td>
                     </tr>
                 </tbody>
             </table>
         </div>
+        <script src="menu.js"></script>
     </body>
 </html>
